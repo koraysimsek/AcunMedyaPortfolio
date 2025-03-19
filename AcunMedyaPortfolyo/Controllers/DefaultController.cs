@@ -15,5 +15,11 @@ namespace AcunMedyaPortfolyo.Controllers
         {
             return View();
         }
+
+        public PartialViewResult PartialTestimonial()
+        {
+            var values = db.Testimonial.ToList();
+            return PartialView(values);
+        }
     }
 }
