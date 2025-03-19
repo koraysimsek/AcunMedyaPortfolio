@@ -1,0 +1,19 @@
+﻿using AcunMedyaPortfolyo.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace AcunMedyaPortfolyo.Controllers
+{
+    public class DefaultController : Controller
+    {
+        // GET: Default
+        DBAcunMedyaProject1Entities2 db = new DBAcunMedyaProject1Entities2();
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
+}
