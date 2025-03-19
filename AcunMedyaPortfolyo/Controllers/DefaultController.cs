@@ -21,5 +21,11 @@ namespace AcunMedyaPortfolyo.Controllers
             var values = db.Testimonial.ToList();
             return PartialView(values);
         }
+
+        public PartialViewResult PartialServices()
+        {
+            var deger = db.Services.ToList();
+            return PartialView(deger);
+        }
     }
 }
