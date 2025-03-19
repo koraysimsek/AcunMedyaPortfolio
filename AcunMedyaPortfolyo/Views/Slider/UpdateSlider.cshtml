@@ -1,0 +1,24 @@
+﻿@model AcunMedyaPortfolyo.Models.Slider
+@{
+    ViewBag.Title = "UpdateSlider";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>UpdateSlider</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.SliderID)
+    <label>Ad Soyad</label>
+    <br />
+    @Html.TextBoxFor(x => x.NameSurname)
+    <br />
+    <label>Açıklama</label>
+    <br />
+    @Html.TextBoxFor(x => x.Description)
+    <br />
+    <label>Fotoğraf</label>
+    <br />
+    @Html.TextBoxFor(x => x.ImageURL)
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</form>

@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Stats</h2>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mesajlar</title>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="grid grid-cols-3 gap-4">
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Kategoriler</h2>
+            <h1 class="text-xl font-bold">@ViewBag.CategoryCount</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Servisler</h2>
+            <h1 class="text-xl font-bold">@ViewBag.ServicesCount</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Referanslar</h2>
+            <h1 class="text-xl font-bold">@ViewBag.TestimonialCount</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Projeler</h2>
+            <h1 class="text-xl font-bold">@ViewBag.ProjectCount</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Yetenekler</h2>
+            <h1 class="text-xl font-bold">@ViewBag.SkillCount</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <h2 class="text-xl font-bold">Mesajlar</h2>
+            <h1 class="text-xl font-bold">@ViewBag.MessageCount</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@model AcunMedyaPortfolyo.Models.Contact
+@{
+    ViewBag.Title = "UpdateContact";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>UpdateContact</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.ContactID)
+    <label>Açıklama</label>
+    <br />
+    @Html.TextBoxFor(x => x.Description)
+    <br />
+    <label>Şehir</label>
+    <br />
+    @Html.TextBoxFor(x => x.Address)
+    <br />
+    <label>Email</label>
+    <br />
+    @Html.TextBoxFor(x => x.Email)
+    <br />
+    <label>Telefon</label>
+    <br />
+    @Html.TextBoxFor(x => x.Phone)
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</form>

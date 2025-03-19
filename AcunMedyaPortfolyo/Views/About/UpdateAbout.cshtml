@@ -1,0 +1,56 @@
+﻿@model AcunMedyaPortfolyo.Models.About
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>UpdateAbout</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.AboutID)
+    <label>Fotoğraf</label>
+    <br />
+    @Html.TextBoxFor(x => x.ImageURL)
+    <br />
+    <label>Başlık</label>
+    <br />
+    @Html.TextBoxFor(x => x.Title)
+    <br />
+    <label>Doğum Tarihi</label>
+    <br />
+    @Html.TextBoxFor(x => x.Birthday)
+    <br />
+    <label>Site Linki</label>
+    <br />
+    @Html.TextBoxFor(x => x.WebSite)
+    <br />
+    <label>Telefon</label>
+    <br />
+    @Html.TextBoxFor(x => x.Phone)
+    <br />
+    <label>Şehir</label>
+    <br />
+    @Html.TextBoxFor(x => x.City)
+    <br />
+    <label>Yaş</label>
+    <br />
+    @Html.TextBoxFor(x => x.Age)
+    <br />
+    <label>Serbest Çalışma</label>
+    <br />
+    @Html.TextBoxFor(x => x.Freelance)
+    <br />
+    <label>Açıklama1</label>
+    <br />
+    @Html.TextBoxFor(x => x.Description1)
+    <br />
+    <label>Açıklama2</label>
+    <br />
+    @Html.TextBoxFor(x => x.Description2)
+    <br />
+    <label>Derece</label>
+    <br />
+    @Html.TextBoxFor(x => x.Degree)
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</form>

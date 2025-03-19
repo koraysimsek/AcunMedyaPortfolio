@@ -1,0 +1,14 @@
+﻿@model AcunMedyaPortfolyo.Models.Category
+@{
+    ViewBag.Title = "UpdateCategory";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>UpdateCategory</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.CategoryID)
+    <label>Kategori Adı</label>
+    @Html.TextBoxFor(x => x.CategoryName)
+    <button class="btn btn-success">Güncelle</button>
+</form>
