@@ -27,5 +27,30 @@ namespace AcunMedyaPortfolyo.Controllers
             var deger = db.Services.ToList();
             return PartialView(deger);
         }
+
+        public PartialViewResult PartialContact()
+        {
+            var values = db.Contact.ToList();
+            return PartialView(values);
+        }
+
+        public ActionResult PartialMessage()
+        {
+            return PartialView();
+        }
+
+        [HttpPost]
+        public ActionResult PartialMessage(Message message)
+        {
+            db.Message.Add(message);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public PartialViewResult PartialAbout()
+        {
+            var values = db.About.ToList();
+            return PartialView(values);
+        }
     }
 }
