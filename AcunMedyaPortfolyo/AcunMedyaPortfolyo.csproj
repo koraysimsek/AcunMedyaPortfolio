@@ -518,6 +518,7 @@
     <Content Include="Views\Default\PartialMessage.cshtml" />
     <Content Include="Views\Default\PartialContact.cshtml" />
     <Content Include="Views\Default\PartialAbout.cshtml" />
+    <Content Include="Views\Default\PartialSlider.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
