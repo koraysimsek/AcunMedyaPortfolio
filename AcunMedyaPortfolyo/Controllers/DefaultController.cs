@@ -58,5 +58,11 @@ namespace AcunMedyaPortfolyo.Controllers
             var values = db.Slider.ToList();
             return PartialView(values);
         }
+
+        public PartialViewResult PartialSkill()
+        {
+            var values = db.Skill.ToList();
+            return PartialView(values);
+        }
     }
 }
