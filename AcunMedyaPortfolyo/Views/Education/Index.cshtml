@@ -11,13 +11,13 @@
         <thead>
             <tr>
                 <th>EducationID</th>
-                <th>Başlangıç Tarihi</th>
-                <th>Bitiş Tarihi</th>
-                <th>Ad</th>
-                <th>Açıklama</th>
-                <th>Bölüm</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Section</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -30,11 +30,11 @@
                     <td>@item.Name</td>
                     <td>@item.Description</td>
                     <td>@item.Section</td>
-                    <td><a href="/Education/UpdateEducation/@item.EducationID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Education/DeleteEducation/@item.EducationID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Education/UpdateEducation/@item.EducationID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Education/DeleteEducation/@item.EducationID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Education/CreateEducation/" class="btn btn-success">Oluştur</a>
+    <a href="/Education/CreateEducation/" class="btn btn-success">Create Education</a>
 </div>

@@ -11,13 +11,13 @@
         <thead>
             <tr>
                 <th>TestimonialID</th>
-                <th>Referans Açıklaması</th>
-                <th>Referans Adı</th>
-                <th>Sayfa Açıklaması</th>
-                <th>Fotoğraf</th>
-                <th>Başlık</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Testimonial Description</th>
+                <th>Testimonial Name</th>
+                <th>Page Description</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -30,11 +30,11 @@
                     <td>@item.Description2</td>
                     <td><img src="@item.ImageURL" style="width:50px" /></td>
                     <td>@item.Title</td>
-                    <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Testimonial/CreateTestimonial/" class="btn btn-success">Oluştur</a>
+    <a href="/Testimonial/CreateTestimonial/" class="btn btn-success">Create Testimonial</a>
 </div>

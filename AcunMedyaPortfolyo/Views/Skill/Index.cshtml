@@ -11,11 +11,11 @@
         <thead>
             <tr>
                 <th>SkillID</th>
-                <th>Yetenek Adı</th>
-                <th>Yüzde</th>
-                <th>Açıklama</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Skill Name</th>
+                <th>Percentage</th>
+                <th>Description</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -26,11 +26,11 @@
                     <td>@item.SkillName</td>
                     <td>@item.Percentage</td>
                     <td>@item.Description</td>
-                    <td><a href="/Skill/UpdateSkill/@item.SkillID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Skill/DeleteSkill/@item.SkillID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Skill/UpdateSkill/@item.SkillID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Skill/DeleteSkill/@item.SkillID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Skill/CreateSkill/" class="btn btn-success">Oluştur</a>
+    <a href="/Skill/CreateSkill/" class="btn btn-success">Create Skill</a>
 </div>

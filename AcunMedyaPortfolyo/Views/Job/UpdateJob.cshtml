@@ -4,29 +4,29 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h2>UpdateJob</h2>
+<h2>Update Job</h2>
 
 <form method="post">
     @Html.HiddenFor(x => x.JobID)
-    <label>Başlık</label>
+    <label>Title</label>
     <br />
     @Html.TextBoxFor(x => x.Title)
     <br />
-    <label>Başlangıç Tarihi</label>
+    <label>Start Date</label>
     <br />
     @Html.TextBoxFor(x => x.StartDate)
     <br />
-    <label>Bitiş Tarihi</label>
+    <label>End Date</label>
     <br />
     @Html.TextBoxFor(x => x.EndDate)
     <br />
-    <label>Şirket Adı</label>
+    <label>Company Name</label>
     <br />
     @Html.TextBoxFor(x => x.CompanyName)
     <br />
-    <label>Açıklama</label>
+    <label>Description</label>
     <br />
     @Html.TextBoxFor(x => x.Description)
     <br />
-    <button class="btn btn-success">Güncelle</button>
+    <button class="btn btn-success">Update</button>
 </form>

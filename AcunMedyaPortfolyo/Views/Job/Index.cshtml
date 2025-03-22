@@ -11,13 +11,13 @@
         <thead>
             <tr>
                 <th>JobID</th>
-                <th>Başlık</th>
-                <th>Başlangıç Tarihi</th>
-                <th>Bitiş Tarihi</th>
-                <th>Şirket Adı</th>
-                <th>Açıklama</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Title</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Company Name</th>
+                <th>Description</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -30,11 +30,11 @@
                     <td>@item.EndDate</td>
                     <td>@item.CompanyName</td>
                     <td>@item.Description</td>
-                    <td><a href="/Job/UpdateJob/@item.JobID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Job/DeleteJob/@item.JobID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Job/UpdateJob/@item.JobID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Job/DeleteJob/@item.JobID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Job/CreateJob/" class="btn btn-success">Oluştur</a>
+    <a href="/Job/CreateJob/" class="btn btn-success">Create Job</a>
 </div>

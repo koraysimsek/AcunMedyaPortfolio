@@ -11,20 +11,20 @@
         <thead>
             <tr>
                 <th>AboutID</th>
-                <th>Fotoğraf</th>
-                <th>Başlık</th>
-                <th>Doğum Tarihi</th>
-                <th>Site Linki</th>
-                <th>Telefon</th>
-                <th>Şehir</th>
-                <th>Yaş</th>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Birthday</th>
+                <th>Website</th>
+                <th>Phone</th>
+                <th>City</th>
+                <th>Age</th>
                 <th>Email</th>
-                <th>Serbest Çalışma</th>
-                <th>Açıklama1</th>
-                <th>Açıklama2</th>
-                <th>Derece</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Freelance</th>
+                <th>Description1</th>
+                <th>Description2</th>
+                <th>Degree</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -44,11 +44,11 @@
                     <td>@item.Description1</td>
                     <td>@item.Description2</td>
                     <td>@item.Degree</td>
-                    <td><a href="/About/UpdateAbout/@item.AboutID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/About/DeleteAbout/@item.AboutID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/About/UpdateAbout/@item.AboutID" class="btn btn-success">Update</a></td>
+                    <td><a href="/About/DeleteAbout/@item.AboutID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/About/CreateAbout/" class="btn btn-success">Oluştur</a>
+    <a href="/About/CreateAbout/" class="btn btn-success">Create About</a>
 </div>

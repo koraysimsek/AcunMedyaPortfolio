@@ -11,12 +11,12 @@
         <thead>
             <tr>
                 <th>MessageID</th>
-                <th>Ad Soyad</th>
+                <th>Name Surname</th>
                 <th>Email</th>
-                <th>Konu</th>
-                <th>Mesaj İçeriği</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Subject</th>
+                <th>Message Content</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -28,11 +28,11 @@
                     <td>@item.Email</td>
                     <td>@item.Subject</td>
                     <td>@item.MessageContent</td>
-                    <td><a href="/Message/UpdateMessage/@item.MessageID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Message/DeleteMessage/@item.MessageID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Message/UpdateMessage/@item.MessageID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Message/DeleteMessage/@item.MessageID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Message/CreateMessage/" class="btn btn-success">Oluştur</a>
+    <a href="/Message/CreateMessage/" class="btn btn-success">Create Message</a>
 </div>

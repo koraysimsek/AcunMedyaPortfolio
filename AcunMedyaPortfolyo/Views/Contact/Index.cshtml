@@ -11,12 +11,12 @@
         <thead>
             <tr>
                 <th>ContactID</th>
-                <th>Açıklama</th>
-                <th>Adres</th>
+                <th>Description</th>
+                <th>Address</th>
                 <th>Email</th>
-                <th>Telefon</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Phone</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -28,11 +28,11 @@
                     <td>@item.Address</td>
                     <td>@item.Email</td>
                     <td>@item.Phone</td>
-                    <td><a href="/Contact/UpdateContact/@item.ContactID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Contact/DeleteContact/@item.ContactID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Contact/UpdateContact/@item.ContactID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Contact/DeleteContact/@item.ContactID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Contact/CreateContact/" class="btn btn-success">Oluştur</a>
+    <a href="/Contact/CreateContact/" class="btn btn-success">Create Contact</a>
 </div>

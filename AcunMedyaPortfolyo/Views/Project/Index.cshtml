@@ -11,15 +11,15 @@
         <thead>
             <tr>
                 <th>ProjectID</th>
-                <th>Proje Adı</th>
-                <th>Açıklama</th>
-                <th>Proje Linki</th>
-                <th>Fotoğraf1</th>
-                <th>Fotoğraf2</th>
-                <th>Fotoğraf3</th>
+                <th>Project Name</th>
+                <th>Desctiption</th>
+                <th>Project Link</th>
+                <th>Image1</th>
+                <th>Image2</th>
+                <th>Image3</th>
                 <th>CategoryID</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -34,11 +34,11 @@
                     <td><img src="@item.Image2" style="width:50px" /></td>
                     <td><img src="@item.Image3" style="width:50px" /></td>
                     <td>@item.CategoryID</td>
-                    <td><a href="/Project/UpdateProject/@item.ProjectID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Project/DeleteProject/@item.ProjectID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Project/UpdateProject/@item.ProjectID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Project/DeleteProject/@item.ProjectID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Project/CreateProject/" class="btn btn-success">Oluştur</a>
+    <a href="/Project/CreateProject/" class="btn btn-success">Create Project</a>
 </div>

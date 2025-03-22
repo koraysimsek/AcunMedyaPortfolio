@@ -11,11 +11,11 @@
         <thead>
             <tr>
                 <th>SliderID</th>
-                <th>Ad Soyad</th>
-                <th>Açıklama</th>
-                <th>Fotoğraf</th>
-                <th>Güncelle</th>
-                <th>Sil</th>
+                <th>Name Surname</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Update</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -26,11 +26,11 @@
                     <td>@item.NameSurname</td>
                     <td>@item.Description</td>
                     <td><img src="@item.ImageURL" style="width:50px" /></td>
-                    <td><a href="/Slider/UpdateSlider/@item.SliderID" class="btn btn-success">Güncelle</a></td>
-                    <td><a href="/Slider/DeleteSlider/@item.SliderID" class="btn btn-danger">Sil</a></td>
+                    <td><a href="/Slider/UpdateSlider/@item.SliderID" class="btn btn-success">Update</a></td>
+                    <td><a href="/Slider/DeleteSlider/@item.SliderID" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
     </table>
-    <a href="/Slider/CreateSlider/" class="btn btn-success">Oluştur</a>
+    <a href="/Slider/CreateSlider/" class="btn btn-success">Create Slider</a>
 </div>

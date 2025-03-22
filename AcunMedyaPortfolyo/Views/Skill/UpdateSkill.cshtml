@@ -4,21 +4,21 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h2>UpdateSkill</h2>
+<h2>Update Skill</h2>
 
 <form method="post">
     @Html.HiddenFor(x => x.SkillID)
-    <label>Yetenek Adı</label>
+    <label>Skill Name</label>
     <br />
     @Html.TextBoxFor(x => x.SkillName)
     <br />
-    <label>Yüzde</label>
+    <label>Percentage</label>
     <br />
     @Html.TextBoxFor(x => x.Percentage)
     <br />
-    <label>Açıklama</label>
+    <label>Description</label>
     <br />
     @Html.TextBoxFor(x => x.Description)
     <br />
-    <button class="btn btn-success">Güncelle</button>
+    <button class="btn btn-success">Update</button>
 </form>
