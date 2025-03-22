@@ -64,5 +64,17 @@ namespace AcunMedyaPortfolyo.Controllers
             var values = db.Skill.ToList();
             return PartialView(values);
         }
+
+        public PartialViewResult PartialEducation()
+        {
+            var values = db.Education.ToList();
+            return PartialView(values);
+        }
+
+        public PartialViewResult PartialJob()
+        {
+            var values = db.Job.ToList();
+            return PartialView(values);
+        }
     }
 }
