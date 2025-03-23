@@ -4,7 +4,7 @@
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h2>Stats</h2>
+<h2></h2>
 
 <!DOCTYPE html>
 <html lang="tr">
@@ -31,6 +31,7 @@
         <div class="bg-white p-6 rounded-2xl shadow text-center">
             <h2 class="text-xl font-bold">Projeler</h2>
             <h1 class="text-xl font-bold">@ViewBag.ProjectCount</h1>
+            <h1 class="text-xl">Son Eklenen Proje: @ViewBag.LastProject</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
             <h2 class="text-xl font-bold">Yetenekler</h2>
