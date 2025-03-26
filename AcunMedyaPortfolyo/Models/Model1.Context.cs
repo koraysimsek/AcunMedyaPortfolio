@@ -36,5 +36,6 @@ namespace AcunMedyaPortfolyo.Models
         public virtual DbSet<Skill> Skill { get; set; }
         public virtual DbSet<Slider> Slider { get; set; }
         public virtual DbSet<Testimonial> Testimonial { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

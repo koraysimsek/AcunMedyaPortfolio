@@ -17,6 +17,7 @@
         <EntityTypeShape EntityType="DBAcunMedyaProject1Model.Slider" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DBAcunMedyaProject1Model.Testimonial" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="DBAcunMedyaProject1Model.FK_Project_Category" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBAcunMedyaProject1Model.sysdiagrams" Width="1.5" PointX="5.375" PointY="9.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
