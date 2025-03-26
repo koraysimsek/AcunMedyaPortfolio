@@ -18,28 +18,50 @@
     <div class="grid grid-cols-3 gap-4">
         <div class="bg-white p-6 rounded-2xl shadow text-center">
             <img src="~/Lonely/assets/img/application (1).png" alt="Kategori Logo" class="mx-auto mb-4">
-            <h2 class="text-xl font-bold">Kategoriler</h2>
+            <h2 class="text-xl font-bold">Categories</h2>
             <h1 class="text-xl font-bold">@ViewBag.CategoryCount</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
-            <h2 class="text-xl font-bold">Servisler</h2>
+            <img src="~/Lonely/assets/img/customer-service (1).png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Services</h2>
             <h1 class="text-xl font-bold">@ViewBag.ServicesCount</h1>
+            <h1 class="text-x2 ">The most recently added service: @ViewBag.LastServiceName</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
-            <h2 class="text-xl font-bold">Referanslar</h2>
+            <img src="~/Lonely/assets/img/testimonial.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Testimonials</h2>
             <h1 class="text-xl font-bold">@ViewBag.TestimonialCount</h1>
+            <h1 class="text-x2 ">The most recently added testimonial: @ViewBag.LastTestimonialName</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
-            <h2 class="text-xl font-bold">Projeler</h2>
+            <img src="~/Lonely/assets/img/project.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Project</h2>
             <h1 class="text-xl font-bold">@ViewBag.ProjectCount</h1>
+            <h1 class="text-x2 ">The most recently added project: @ViewBag.LastProjectName</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
-            <h2 class="text-xl font-bold">Yetenekler</h2>
+            <img src="~/Lonely/assets/img/skill.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Skills</h2>
             <h1 class="text-xl font-bold">@ViewBag.SkillCount</h1>
+            <h1 class="text-x2 ">The most recently added skill: @ViewBag.LastSkillName</h1>
         </div>
         <div class="bg-white p-6 rounded-2xl shadow text-center">
-            <h2 class="text-xl font-bold">Mesajlar</h2>
+            <img src="~/Lonely/assets/img/comments.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Messages</h2>
             <h1 class="text-xl font-bold">@ViewBag.MessageCount</h1>
+            <h1 class="text-x2 ">The most recently message: @ViewBag.LastMessageName</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <img src="~/Lonely/assets/img/suitcase.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Job</h2>
+            <h1 class="text-xl font-bold">@ViewBag.JobCount</h1>
+            <h1 class="text-x2 ">My most recent workplace: @ViewBag.LastJobName - @ViewBag.LastCompanyName</h1>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow text-center">
+            <img src="~/Lonely/assets/img/school.png" alt="Kategori Logo" class="mx-auto mb-4">
+            <h2 class="text-xl font-bold">Education</h2>
+            <h1 class="text-xl font-bold">@ViewBag.EducationCount</h1>
+            <h1 class="text-x2 ">The most recently education: @ViewBag.LastEducationName</h1>
         </div>
     </div>
 </body>
