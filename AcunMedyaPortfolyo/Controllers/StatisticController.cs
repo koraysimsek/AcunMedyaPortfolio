@@ -20,10 +20,6 @@ namespace AcunMedyaPortfolyo.Controllers
             ViewBag.SkillCount = db.Skill.Count();
             ViewBag.ServicesCount = db.Services.Count();
             ViewBag.ProjectCount = db.Project.Count();
-            ViewBag.LastProject = db.Project.Select(p => p.ProjectName).LastOrDefault();
-
-
-
             return View();
         }
     }

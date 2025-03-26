@@ -82,5 +82,11 @@ namespace AcunMedyaPortfolyo.Controllers
             var values = db.Project.ToList();
             return PartialView(values);
         }
+
+        public PartialViewResult PartialCategory()
+        {
+            var values = db.Category.ToList();
+            return PartialView(values);
+        }
     }
 }

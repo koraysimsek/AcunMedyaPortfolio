@@ -221,9 +221,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Lonely\assets\css\main.css" />
     <Content Include="Lonely\assets\img\apple-touch-icon.png" />
+    <Content Include="Lonely\assets\img\application %281%29.png" />
+    <Content Include="Lonely\assets\img\application.png" />
     <Content Include="Lonely\assets\img\favicon.png" />
+    <Content Include="Lonely\assets\img\gps.png" />
     <Content Include="Lonely\assets\img\hero-bg.jpg" />
     <Content Include="Lonely\assets\img\logo.png" />
+    <Content Include="Lonely\assets\img\Logo_.cv.png" />
     <Content Include="Lonely\assets\img\masonry-portfolio\masonry-portfolio-1.jpg" />
     <Content Include="Lonely\assets\img\masonry-portfolio\masonry-portfolio-2.jpg" />
     <Content Include="Lonely\assets\img\masonry-portfolio\masonry-portfolio-3.jpg" />
@@ -526,6 +530,7 @@
     <Content Include="Views\Default\PartialEducation.cshtml" />
     <Content Include="Views\Default\PartialJob.cshtml" />
     <Content Include="Views\Default\PartialProject.cshtml" />
+    <Content Include="Views\Default\PartialCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
