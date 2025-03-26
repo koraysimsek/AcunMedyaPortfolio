@@ -243,6 +243,7 @@
     <Content Include="Lonely\assets\img\portfolio\product-1.jpg" />
     <Content Include="Lonely\assets\img\profile-img.jpg" />
     <Content Include="Lonely\assets\img\services.jpg" />
+    <Content Include="Lonely\assets\img\slider.png" />
     <Content Include="Lonely\assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="Lonely\assets\img\testimonials\testimonials-2.jpg" />
     <Content Include="Lonely\assets\img\testimonials\testimonials-3.jpg" />
