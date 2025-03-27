@@ -222,6 +222,7 @@
     <Content Include="Lonely\assets\css\main.css" />
     <Content Include="Lonely\assets\img\apple-touch-icon.png" />
     <Content Include="Lonely\assets\img\application %281%29.png" />
+    <Content Include="Lonely\assets\img\categories.png" />
     <Content Include="Lonely\assets\img\comments.png" />
     <Content Include="Lonely\assets\img\customer-service %281%29.png" />
     <Content Include="Lonely\assets\img\favicon.png" />
