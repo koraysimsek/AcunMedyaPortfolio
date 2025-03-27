@@ -46,7 +46,7 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Koray Şimşek</h1>
@@ -73,6 +73,7 @@
       @Html.Action("PartialSlider", "Default")<!-- /Hero Section -->
       <!-- About Section -->
       @Html.Action("PartialAbout", "Default")<!-- /About Section -->
+      <hr>
       <!-- Skills Section -->
       @Html.Action("PartialSkill", "Default")<!-- /Skills Section -->
       <!-- Resume Section -->
@@ -128,15 +129,14 @@
       <!-- Testimonials Section -->
       @Html.Action("PartialTestimonial", "Default")<!-- /Testimonials Section -->
       <!-- Contact Section -->
-      
 
-                  @Html.Action("PartialContact", "Default")
 
-                  @Html.Action("PartialMessage", "Default")<!-- End Contact Form -->
+      @Html.Action("PartialContact", "Default")
 
-              </div>
+      @Html.Action("PartialMessage", "Default")<!-- End Contact Form -->
+      </div>
 
-          </div>
+      </div>
 
       </section><!-- /Contact Section -->
 
