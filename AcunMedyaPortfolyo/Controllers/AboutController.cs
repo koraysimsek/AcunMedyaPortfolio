@@ -57,6 +57,7 @@ namespace AcunMedyaPortfolyo.Controllers
             values.Phone = model.Phone;
             values.City = model.City;
             values.Age = model.Age;
+            values.Email = model.Email;
             values.Freelance = model.Freelance;
             values.Description1 = model.Description1;
             values.Description2 = model.Description2;
