@@ -24,7 +24,17 @@
                 <tr>
                     <td>@item.SkillID</td>
                     <td>@item.SkillName</td>
-                    <td>@item.Percentage</td>
+                    <td>
+                        <div class="progress" style="height: 25px;">
+                            <div class="progress-bar" role="progressbar"
+                                 style="width: @item.Percentage%;"
+                                 aria-valuenow="@item.Percentage"
+                                 aria-valuemin="0"
+                                 aria-valuemax="100">
+                                @item.Percentage%
+                            </div>
+                        </div>
+                    </td>
                     <td>@item.Description</td>
                     <td><a href="/Skill/UpdateSkill/@item.SkillID" class="btn btn-success">Update</a></td>
                     <td><a href="/Skill/DeleteSkill/@item.SkillID" class="btn btn-danger">Delete</a></td>

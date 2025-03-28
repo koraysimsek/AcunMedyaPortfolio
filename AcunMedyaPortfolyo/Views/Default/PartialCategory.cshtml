@@ -3,6 +3,6 @@
     <li data-filter="*" class="filter-active">All</li>
     @foreach (var item in Model)
     {
-        <li data-filter=".filter-app">@item.CategoryName</li>
+        <li data-filter=".filter-@item.CategoryName">@item.CategoryName</li>
     }
 </ul>
